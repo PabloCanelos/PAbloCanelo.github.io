@@ -1,0 +1,120 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-size: 1.2rem;
+    
+} 
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+.navbar h1 {
+    color: #e65353b2;
+    font-size: 3rem;
+    flex: 1 1 auto;
+    margin-left: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    margin-right: 30px;
+    
+    
+}
+
+.nav-links li {
+    margin: 1.5rem;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 2rem;
+}
+
+.nav-links a:hover {
+    color: #10cf20;
+}
+
+.titulo-datos-curriculum {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    background-color: #444;
+    font-size: 20px;
+    gap: 1em;
+}
+
+.color-tag {
+    color: rgba(255, 166, 0, 0.801);
+}
+
+.enseñanza-basica, .sub-enseñanza-basica, .descripcion-enseñanza-basica {
+    margin: 1rem 0;
+}
+
+.sub-enseñanza-basica {
+    color: rgb(96, 192, 96);
+    font-size: 25px;
+}
+
+.descripcion-enseñanza-basica {
+    margin-top: 0.5em;
+}
+
+.sub-experiencia-laboral {
+    color: rgb(96, 192, 96);
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-email:hover,
+.footer a:hover {
+    color: rgb(96, 192, 96);
+}
+
+.footer-email {
+    color: rgba(255, 166, 0, 0.801);
+    font-size: 30px;
+}
+
+.footer i:hover {
+    color: rgb(96, 192, 96) !important;
+}
