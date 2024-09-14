@@ -117,14 +117,7 @@ span{
     margin-bottom: 0.5em;
    
 }
-.divider{
-    height: 4px;
-    width: 150px;
-    background-color: aqua;
-    
-    margin-top: 1px;
-    margin-bottom: 1em;
-}
+
 .about p{
     margin-bottom: 1em;
 }
