@@ -1,0 +1,94 @@
+.header{
+    height: 10em;
+    padding: 1em;
+    font-size: 2em;
+    background-image: url(../asset/imagenes/fabricante.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+   
+  
+}
+.header h1{
+    margin: 0px;
+    height: 3;
+}
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;    
+
+} 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../asset/imagenes/fondoliso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    margin: 0;
+    
+}
+h1{
+    color: rgb(124, 108, 86);
+    border-radius: 5px; 
+    text-shadow: 2px 2px 4px #000;
+    border: 1px, 2px, 4px;
+    font-size: 60px;
+    
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0; 
+}   
+table{
+    width: 80%;
+    margin: auto;
+    margin-left: 25%;
+    margin-top: 80px;
+
+}
+.td, img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 1);
+    
+}
+
+
+.subtitulo{
+    color: beige;
+    margin: auto;
+}
+
+.td, p{
+    color: black;
+    font-size: 30px;
+}
+.precio{
+     align-tracks: unset;
+
+}
+.productos{
+ display: flex;
+ justify-content: center;
+ 
+}
