@@ -5,9 +5,56 @@ body {
     background-color: #2d2d2d;
     color: #ffffff;
     font-size: 1.2rem;
+    margin-right: 0px;
     
 } 
-
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; 
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%; 
+    padding: 0 10px; 
+  }
+  
+  .footer {
+    margin-top: 10px;
+    text-align: center;
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+  }
+  
+  .footer a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-email {
+    color: rgba(255, 166, 0, 0.801);
+    font-size: 30px;
+    max-width: 100%; 
+    word-break: break-word; 
+  }
+  
+  .footer-email:hover,
+  .footer a:hover {
+    color: rgb(130, 96, 192);
+  }
+  
+  .footer i:hover {
+    color: rgb(96, 192, 96) !important;
+  }
+  
 
 .navbar {
     display: flex;
@@ -93,6 +140,7 @@ body {
 .footer {
     margin-top: 10px;
     text-align: center;
+    overflow-wrap: break-word;
 }
 
 .footer a {
