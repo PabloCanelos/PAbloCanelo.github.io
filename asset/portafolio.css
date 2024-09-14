@@ -50,8 +50,8 @@ body{
 
 }
 .menu a:hover{
-    background-color: aqua;
-    color: rgb(23, 23, 61);
+    color: aqua;
+    color: rgb(212, 6, 40);
     transition: ease-in 0,5;
     
 }
@@ -204,11 +204,18 @@ ul li i {
     margin: 50px;
     font-size: 70px;
     
+    
+    
 }
 
-ul img{
+ul img {
     width: 70px;
     height: 70px;
     margin-top:50px ;
     margin-right: 40px;
 }
+.ul li :hover {
+    transform: scale(1.2);
+    color: #ff6347; /* Cambia el color al pasar el mouse */
+}
+
