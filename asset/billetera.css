@@ -9,9 +9,10 @@ html, body {
     margin: 0;
     padding: 0;
 
+
 }
 .contenedor-general {
-    display: flex;
+     display: flex;
      flex-direction: column;
      min-width: 100vh;
 }
@@ -22,6 +23,7 @@ html, body {
     width: 100%;
 
     height: 100%;
+    
 }
 
 header {
@@ -76,20 +78,28 @@ tr {
     
 }
 
-footer {
-    background-color: rgba(218, 107, 33, 0.808);
-    
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    margin-top: auto;
-    
-}
 td {
     padding: 2em;
     align-content: center;
 }
+.footer {
+
+    background-color: rgba(218, 107, 33, 0.808);
+    height: auto; /* Cambié esto a auto para evitar problemas de altura */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 0;
+    justify-content: center;
+    align-content: center;
+    font-size: 2em;
+    justify-content: flex-end;
+    
+    
+  
+}
+
 
 
  
